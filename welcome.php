@@ -13,7 +13,7 @@
                Expedita minus exercitationem error blanditiis voluptatibus eaque aperiam aliquid ipsa.
                Error tempore ea at adipisci aut quas deserunt nulla dolores, iure ratione.
             </p>
-            <p>your email : <span></span></p>
+            <p>Your email : <span></span></p>
             <a href="logout.php" class="logout">Logout</a>
         </div>
 

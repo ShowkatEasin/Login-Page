@@ -22,6 +22,7 @@
     <p>Don't have an account? <a href="register_form.php">Register now</a></p>
     </form>
 </div>
+</div>
 
 
 
