@@ -18,10 +18,12 @@
     <h3>Register now</h3>
     <input type="email" name="usermail" placeholder="Enter your Email" class="box" required>
     <input type="password" name="password" placeholder="Enter your Password" class="box" required>
-    <input type="Submit" value="Login now" name="submit" class="form-btn">
-    <p>Don't have an account? <a href="register_form.php">Register now</a></p>
+    <input type="password" name="cpassword" placeholder="Confirm your Password" class="box" required>
+    <input type="Submit" value="Register now" name="submit" class="form-btn">
+    <p>Already have an account? <a href="login_form.php">Register now</a></p>
     </form>
 </div>
+
 
 
 
