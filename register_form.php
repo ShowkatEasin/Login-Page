@@ -1,3 +1,20 @@
+
+
+<?php
+
+@include 'config.php';
+
+session_start();
+
+if(isset($_POST['submit'])){
+
+    $email= mysqli_real_escape_string($conn,$_POST['usermail'])
+}
+
+?>
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -20,7 +37,7 @@
     <input type="password" name="password" placeholder="Enter your Password" class="box" required>
     <input type="password" name="cpassword" placeholder="Confirm your Password" class="box" required>
     <input type="Submit" value="Register now" name="submit" class="form-btn">
-    <p>Already have an account? <a href="login_form.php">Register now</a></p>
+    <p>Already have an account? <a href="login_form.php">Login now</a></p>
     </form>
 </div>
 
