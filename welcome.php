@@ -9,9 +9,8 @@
     <div class="container">
         <div class="content">
             <h3>Welcome</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-               Expedita minus exercitationem error blanditiis voluptatibus eaque aperiam aliquid ipsa.
-               Error tempore ea at adipisci aut quas deserunt nulla dolores, iure ratione.
+            <p>You are entered inside here. and your registration is successfullt done.
+                 Here also show your Email. Now you can logout if you want. Thank you for your registration.
             </p>
             <p>Your email : <span></span></p>
             <a href="logout.php" class="logout">Logout</a>
