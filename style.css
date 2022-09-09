@@ -128,3 +128,12 @@ color:crimson;
     font-size: 20px;
     padding-top: 10px;
 }
+
+.form-container form .error-msg{
+    display: block;
+    margin: 10px 0;
+    background: crimson;
+    font-size: 20px;
+    color: #fff;
+    padding: 10px;
+}

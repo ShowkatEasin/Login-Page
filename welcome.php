@@ -1,3 +1,19 @@
+
+<?php 
+
+@include 'config.php';
+
+session_start();
+
+if (!isset($_SESSION['usermail'])){
+    header ('location:login_form.php');
+}
+
+?>
+
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,10 +25,10 @@
     <div class="container">
         <div class="content">
             <h3>Welcome</h3>
-            <p>You are entered inside here. and your registration is successfullt done.
-                 Here also show your Email. Now you can logout if you want. Thank you for your registration.
+            <p>Your registration is successfully done.
+             Here also show your Email which you used. Now you can logout if you want. Thank you for your registration.
             </p>
-            <p>Your email : <span></span></p>
+            <p>Your email : <span><?php echo$_SESSION['usermail']?></span></p>
             <a href="logout.php" class="logout">Logout</a>
         </div>
 
